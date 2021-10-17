@@ -9,21 +9,31 @@
 </head>
 <body>
   <div class="wrapper">
+    <input type="radio" name="radio" id="slide1-active">
+    <input type="radio" name="radio" id="slide2-active">
+    <input type="radio" name="radio" id="slide3-active">
+    <input type="radio" name="radio" id="slide4-active">     
+
     <div class="slider">
-      <div class="slider-nav">
-        <label for="slide1-active" class="slider-nav-item"></label>
-        <label for="slide2-active" class="slider-nav-item"></label>
-        <label for="slide3-active" class="slider-nav-item"></label>
-        <label for="slide4-active" class="slider-nav-item"></label>
+      <div class="slider-desc-container">
+
+        <div class="slider-desc-content">
+          <p class="desc1">1</p>
+          <p class="desc2">2</p>
+          <p class="desc3">3</p>
+          <p class="desc4">4</p>
+        </div>
+
+        <div class="slider-nav">
+          <label for="slide1-active" class="slider-nav-item item1"></label>
+          <label for="slide2-active" class="slider-nav-item item2"></label>
+          <label for="slide3-active" class="slider-nav-item item3"></label>
+          <label for="slide4-active" class="slider-nav-item item4"></label>
+        </div>
+      
       </div>
-
+      
       <div class="slider-items">
-
-        <input type="radio" name="radio" id="slide1-active">
-        <input type="radio" name="radio" id="slide2-active">
-        <input type="radio" name="radio" id="slide3-active">
-        <input type="radio" name="radio" id="slide4-active">
-
         <div class="item slide1-active">
           <img src="./img/1.jpg" alt="">
         </div>
@@ -37,6 +47,8 @@
           <img src="./img/4.jpg" alt="">
         </div>
       </div>
+
+      
     </div>
   </div>
 </body>
