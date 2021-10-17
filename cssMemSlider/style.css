@@ -48,7 +48,7 @@ body {
 }
 
 .slider-desc-content {
-  height: 2rem;
+  height: 3rem;
   width: 80%;
   display: flex;
   overflow: hidden;
@@ -84,6 +84,7 @@ body {
 .item {
   width: 25%;
   transition: all .6s ease;
+  background-color:#fff;
 }
 
 .item img {
@@ -196,5 +197,9 @@ p.desc1 {
   .slider-nav {
     width: 100%;
     justify-content: center;
+  }
+
+  .slider-desc-content {
+    width: 100%;
   }
 }
