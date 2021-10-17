@@ -179,6 +179,7 @@ p.desc1 {
 @media(max-width: 1080px) {
   .slider {
     justify-content: center;
+    row-gap: 1rem;
   }
 
   .item img {
