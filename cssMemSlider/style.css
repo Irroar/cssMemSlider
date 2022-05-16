@@ -86,9 +86,14 @@ p.desc1 {
   opacity: 1;
 }
 
-.active-area:hover {
+.slider-nav-item:hover .active-area{
   border-color: #f0f6fc;
   background-color:#f0f6fc;
+}
+
+.slider-nav-item:active .active-area{
+  background-color: transparent;
+  outline: none;
 }
 
 .active-area {
@@ -103,10 +108,6 @@ p.desc1 {
   background-color: #71abff;
 }
 
-.active-area:active {
-  background-color: transparent;
-  outline: none;
-}
 
 .slider-nav-item {
   width: 1.7rem;
@@ -116,10 +117,6 @@ p.desc1 {
   cursor: pointer;
 }
 
-.slider-nav-item:active {
-  background-color: transparent;
-  outline: none;
-}
 
 
 #slide1-active:checked ~ .slider .slider-desc-container .slider-nav .item1 .active-area{
